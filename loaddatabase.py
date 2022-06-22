@@ -94,4 +94,4 @@ def loaddata(fileName):
     return np.array(xdata), np.array(ydata), np.array(xdataT), np.array(ydataT)
 
 if __name__ == "__main__":
-    loaddata('../dataset/flowdata.binetflow')
+    loaddata('../loaddatabase/flowdata.binetflow')
