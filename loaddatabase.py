@@ -87,7 +87,7 @@ def loaddata(fileName):
             continue
 
     #pickle the dataset for fast loading
-    file = open('../dataset/flowdata.pickle', 'wb')
+    file = open('../loaddataset/flowdata.pickle', 'wb')
     pickle.dump([np.array(xdata), np.array(ydata), np.array(xdataT), np.array(ydataT)], file)
 
     #return the training and the test dataset
